@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <title>Pizza Commande</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <img src="https://st2.depositphotos.com/1588812/6826/v/950/depositphotos_68261337-stock-illustration-vector-logo-slice-of-pizza.jpg" alt="" width="60" height="48">
+        <!-- <button type="button" class="btn btn-info">La carte</button>
+        <button type="button" class="btn btn-info">Commander</button>
+        <button type="button" class="btn btn-info">Trouver un restaurant</button> -->
+        <a class="click-me" href="./carte.html">La carte</a>
+        <a class="click-me" href="./commande.html">Commander</a>
+        <a class="click-me" href="./map.html">Trouver un restaurant</a>
+    </header>
+
+    <form action="./map.html" method="post">
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Choississez votre pizza</option>
+            <option value="1">La reine</option>
+            <option value="2">La 4 fromages</option>
+            <option value="3">La savoyarde</option>
+          </select>
+          <button type="submit" class="btn btn-primary">Valider</button>
+    </form>
+
+</body>
+
+</html>
